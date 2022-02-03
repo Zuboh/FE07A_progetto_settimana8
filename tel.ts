@@ -17,7 +17,7 @@ abstract class Smartphone {
     }
 
     chiamata(minutiDurata: number):void {
-        console.log("Minuti : " + minutiDurata);
+        console.log("Minuti chiamata: " + minutiDurata);
         this.numeroChiamate++;
         if(this.numberCarica < (0.20 * minutiDurata)){
             console.log("Credito non sufficente effettua una ricarica");
@@ -67,5 +67,14 @@ class thirdUser extends Smartphone {
 
 
 let utente = new FirstUser(20,2);
+console.log('UTENTE 1');
+console.log('Saldo : '+utente.numberCarica);
+console.log('Numero Chiamate : '+utente.numeroChiamate);
 let utente2 = new SecondoUser(30,1);
+console.log('UTENTE 2');
+console.log('Saldo : '+utente2.numberCarica);
+console.log('Numero Chiamate : '+utente2.numeroChiamate);
 let utente3= new thirdUser(60,8);
+console.log('UTENTE 3');
+console.log('Saldo : '+utente3.numberCarica);
+console.log('Numero Chiamate : '+utente3.numeroChiamate);

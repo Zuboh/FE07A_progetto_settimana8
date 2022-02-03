@@ -1,0 +1,14 @@
+{
+  "name": "progetto7",
+  "version": "1.0.0",
+  "description": "Progetto settimana 8 Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzo Zubani",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
